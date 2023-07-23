@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS practising</title>
+    <!--css link-->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <!-- text change -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to change the text</h1>
+      <button type="button" class="btn btn-dark my-2" onclick="textChange()">Text Change</button>
+      <h2 id="h2">Hello world!</h2>
+    </div>
+    <!-- show date -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to show the date</h1>
+      <button type="button" class="btn btn-dark" onclick="showDate()">Show date</button>
+      <h2 id="dh2">Date</h2>
+    </div>
+    <!-- variable example -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to repeat the message</h1>
+      <button type="button" class="btn btn-dark" onclick="dataRepeat()">Repeat message</button>
+      <h2 id="dr"></h2>
+    </div>
+    <!-- on/off -->
+    <div class="container">
+      <h1 class="text-dark">Click the button to on/off the bulb</h1>
+      <button type="button" class="btn btn-success" onclick="bulbOn()">On</button>
+      <img id="bulb" src="images/bulboff.gif" alt="">
+      <button type="button" class="btn btn-dark" onclick="bulbOff()">Off</button>
+    </div>
+    <!-- fontsize -->
+    <div class="container">
+      <h1 class="text-dark">Click the button to change the fontsize</h1>
+      <button type="button" class="btn btn-success my-2" onclick="fontSize()">FontSize</button>
+      <h2 id="fs">JS is the programming language of the Web.</h2>
+    </div>
+    <!-- show/hide -->
+    <div class="container">
+      <h1 class="text-dark">Click the button to show/hide the text</h1>
+      <button type="button" class="btn btn-success my-2" onclick="textShow()">Show</button>
+      <button type="button" class="btn btn-dark" onclick="textHide()">Hide</button>
+      <h2 id="tsh">JS is the programming language of the Web.</h2>
+    </div>
+    <!-- alert msg -->
+    <div class="container">
+      <p>Welcome to Javascript</p>
+      <form>
+        <input type="button" class="btn btn-dark" value="click" onclick="message()">
+      </form>
+    </div>
+    <!-- variable decl. -->
+    <div class="container">
+      <h4>Variable declaration</h4>
+      <button type="button" class="btn btn-dark" onclick="result()">Result</button>
+      <h5 id="h5"></h5>
+    </div>
+    <!-- print page -->
+    <div class="container">
+      <p>Click the button to print the current page.</p>
+      <button type="button" class="btn btn-dark" onclick="printPage()">Print the page</button>
+    </div>
+    <!--  -->
+    <div class="container my-3">
+      <p>Demo of let</p>
+      <p id="demo"></p>
+    </div>
+    <div class="container my-3">
+      <p>Demo of expression</p>
+      <p id="demo1"></p>
+    </div>
+    <div class="container my-3">
+      <p>Demo of string</p>
+      <p id="demo2"></p>
+    </div>
+    <div class="container my-3">
+      <h2>The <b>let</b> Keyword Creates Variables</h2>
+      <p id="demo3"></p>
+    </div>
+    <div class="container my-3">
+      <h2>Redeclaring a Variable Using var</h2>
+      <p id="demo4"></p>
+    </div>
+    <div class="container my-3">
+      <h2>Redeclaring a Variable Using let</h2>
+      <p id="demo5"></p>
+    </div>
+    <div class="container">
+      <h4>Declaring a constant array does NOT make the elements unchangeable:</h4>
+      <p id="demo6"></p>
+    </div>
+
+
+
+    <!--js link-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
